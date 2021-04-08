@@ -10,14 +10,26 @@
 }
 
 .page_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   min-height: 400px;
   position: absolute;
   width: 100%;
   color: #fff;
   padding: 0px 80px;
 }
-
-.page_main {
+.social_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.social_item {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  margin: 0 10px;
 }
 
 .page_footer {
@@ -39,6 +51,7 @@
 }
 .bg_header {
   background-image: url("./img/header.jpg");
+  background-repeat: round;
 }
 .bg_1 {
   background-image: url("./img/bg1.jpg");
