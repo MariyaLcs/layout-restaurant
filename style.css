@@ -53,8 +53,9 @@
   background-image: url("./img/bg1.jpg");
   background-size: cover;
 }
-.bg_2 {
+.bg_5 {
   background-image: url("./img/bg2.jpg");
+  background-size: cover;
 }
 
 .bg_sect2 {
