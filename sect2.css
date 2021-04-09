@@ -7,7 +7,6 @@
   height: 400px;
 }
 .section2_column {
-  border: solid 1px #000;
   width: 50%;
   margin: 0px 10px;
   display: flex;
@@ -16,24 +15,34 @@
   align-items: center;
   text-align: center;
 }
-.section2_header {
-  color: #cc9900;
-  font-size: 2.5rem;
+
+.section2_plate {
+  width: 350px;
+  display: block;
 }
-.section2_p {
-  color: #848484;
-  font-size: 1.2rem;
+.picture_wrapper {
+  padding-left: 90px;
+  width: 100%;
 }
 .section2_chef {
-  background: url("./img/chef.jpg");
-  width: 100px;
-  height: 100px;
+  display: block;
+  width: 120px;
+  height: 120px;
+  position: relative;
   border-radius: 50%;
-  background-repeat: round;
+  background-image: url("./img/chef.jpg");
+  background-size: contain;
 }
-.bg_sect2 {
-  background-image: url("./img/sect2-main.jpg");
-  background-repeat: round;
+.section2_chef::after {
+  position: absolute;
+  background-image: url("./img/sec2-signature.png");
+  background-size: contain;
+  width: 75px;
+  height: 75px;
+  display: block;
+  content: "";
+  left: 80px;
+  top: 50px;
 }
 
 .astrodivider {
@@ -57,8 +66,8 @@
   box-shadow: 0 0 8px #cc9900;
 }
 .astrodivider span {
-  width: 50px;
-  height: 50px;
+  width: 2.5rem;
+  height: 2.5rem;
   position: absolute;
   bottom: 100%;
   margin-bottom: -25px;
@@ -77,7 +86,7 @@
   border-radius: 100%;
   border: 1px dashed #cc9900;
   text-align: center;
-  line-height: 40px;
+  line-height: 2rem;
   font-style: normal;
   color: #cc9900;
 }
