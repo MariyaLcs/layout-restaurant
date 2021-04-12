@@ -2,6 +2,7 @@
 .section4_header {
   color: #cc9900;
   font-size: 1.5rem;
+  padding: 15px 0px;
 }
 .section2_p {
   color: #848484;
@@ -14,4 +15,13 @@
   font-size: 1.2rem;
   font-weight: bold;
   margin: 20px;
+}
+
+.page_header_logo {
+  font-size: 2rem;
+  color: rgba(248, 243, 253, 0.932);
+}
+.nav_item {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
