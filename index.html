@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/styles/sect5.css" />
     <link rel="stylesheet" href="/styles/sect6.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/font-style.css" />
     <link rel="stylesheet" href="/icons/icons.css" />
   </head>
@@ -20,18 +21,18 @@
     <div class="page_wrapper">
       <header class="page_header">
         <div class="nav_wrapper">
-          <div class="page_header_logo">LAMBDA</div>
-          <div class="nav_item">Home</div>
-          <div class="nav_item">About</div>
-          <div class="nav_item">Ingredients</div>
-          <div class="nav_item">Menu</div>
-          <div class="nav_item">Reviews</div>
-          <div class="nav_item">Reservations</div>
+          <div class="page_header_logo"><a href="#home">LAMBDA</a></div>
+          <div class="nav_item"><a href="#home">Home</a></div>
+          <div class="nav_item"><a href="#about">About</a></div>
+          <div class="nav_item"><a href="#ingredients">Ingredients</a></div>
+          <div class="nav_item"><a href="#menu">Menu</a></div>
+          <div class="nav_item"><a href="#reviews">Reviews</a></div>
+          <div class="nav_item"><a href="#reservations">Reservations</a></div>
 
           <div class="social_wrapper">
-            <div class="social_item ico_a"></div>
-            <div class="social_item ico_b"></div>
-            <div class="social_item ico_c"></div>
+            <a href="#home"><div class="social_item ico_a"></div></a>
+            <a href="#home"><div class="social_item ico_b"></div></a>
+            <a href="#home"><div class="social_item ico_c"></div></a>
           </div>
         </div>
       </header>
@@ -50,11 +51,19 @@
               </div>
             </div>
             <div class="section1_bottom">
-              <div class="section1_button section1_button__primary">
-                BOOK A TABLE
+              <div>
+                <a
+                  href="#booking"
+                  class="section1_button section1_button__primary"
+                  >BOOK A TABLE</a
+                >
               </div>
-              <div class="section1_button section1_button__secondary">
-                SEE THE MENU
+              <div>
+                <a
+                  href="#menu"
+                  class="section1_button section1_button__secondary"
+                  >SEE THE MENU</a
+                >
               </div>
             </div>
           </div>
@@ -188,7 +197,7 @@
                 quasi nulla corporis labore repudiandae sapiente dolorum nobis
                 recusandae sit ipsa?
               </p>
-              <form action="" method="post">
+              <form action="" method="post" id="booking">
                 <div class="contact_form">
                   <div class="form_left">
                     <p>

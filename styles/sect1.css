@@ -21,13 +21,14 @@
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  padding: 20px 0px;
+  padding: 75px 0px;
 }
 
 .section1_button {
-  padding: 10px;
-  width: 150px;
+  padding: 20px 60px;
   margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
 }
 .section1_button__primary {
   border: solid 1px #000;
