@@ -1,19 +1,31 @@
 .section2_header,
 .section4_header {
   color: #cc9900;
-  font-size: 1.5rem;
-  padding: 15px 0px;
+  font-size: 24px;
+  margin: 15px 0px;
+  font-family: "Yeseva One", cursive;
+  letter-spacing: 2px;
 }
-.section2_p {
-  color: #848484;
-  font-size: 1.2rem;
+.section3_header {
+  color: #fff;
+  font-size: 24px;
+  margin: 15px 0px;
+  font-family: "Yeseva One", cursive;
+  letter-spacing: 2px;
+}
+.section_column p {
+  color: #4c4c4c;
+  font-size: 16px;
   font-weight: bold;
+  font-family: "Lato", sans-serif;
+  line-height: 26px;
 }
 
-.section3_p {
-  color: #848484;
-  font-size: 1.2rem;
-  font-weight: bold;
+.section3 p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
   margin: 20px;
 }
 

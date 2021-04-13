@@ -1,25 +1,9 @@
-.section2_columns {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 400px;
-}
-.section2_column {
-  width: 100%;
-  margin: 0px 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
 .section2_plate {
-  width: 350px;
-  display: block;
+  height: 500px;
+  width: 500px;
 }
-.picture_wrapper {
-  padding-left: 90px;
-  width: 100%;
+.section2_p {
+  width: 420px;
 }
 .section2_chef {
   display: block;
@@ -29,15 +13,4 @@
   border-radius: 50%;
   background-image: url("../img/chef.jpg");
   background-size: contain;
-}
-.section2_chef::after {
-  position: absolute;
-  background-image: url("../img/sec2-signature.png");
-  background-size: contain;
-  width: 75px;
-  height: 75px;
-  display: block;
-  content: "";
-  left: 80px;
-  top: 50px;
 }
