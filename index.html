@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/styles/sect1.css" />
     <link rel="stylesheet" href="/styles/sect2.css" />
     <link rel="stylesheet" href="/styles/sect3.css" />
-    <!-- <link rel="stylesheet" href="./sect4.css" /> -->
+    <link rel="stylesheet" href="/styles/sect4.css" />
     <link rel="stylesheet" href="/styles/sect5.css" />
     <link rel="stylesheet" href="/styles/sect6.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="/styles/font-style.css" />
     <link rel="stylesheet" href="/icons/icons.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap"
       rel="stylesheet"
@@ -30,7 +34,7 @@
   <body>
     <div class="page_wrapper">
       <header class="page_header">
-        <div class="nav_wrapper">
+        <nav class="nav_wrapper">
           <div class="page_header_logo"><a href="#home">LAMBDA</a></div>
           <div class="nav_item"><a href="#home">Home</a></div>
           <div class="nav_item"><a href="#about">About</a></div>
@@ -44,16 +48,16 @@
             <a href="#home"><div class="social_item ico_b"></div></a>
             <a href="#home"><div class="social_item ico_c"></div></a>
           </div>
-        </div>
+        </nav>
       </header>
       <main class="page_main">
-        <section class="main_section bg_header">
+        <section class="main_section bg_sect1">
           <div class="section1_wrapper">
             <div class="section1_top">
-              <div class="section1_name">
-                <h1>LAMBDA restaurant</h1>
+              <h1>LAMBDA restaurant</h1>
+              <h2 class="section1_name">
                 the right ingredients for the right food
-              </div>
+              </h2>
             </div>
             <div class="section1_center">
               <img src="./img/divider1.png" alt="header decoration" />
@@ -109,7 +113,7 @@
               <div class="section3">
                 <h2 class="section3_header">Fine ingredients</h2>
                 <img src="./img/divider3.png" alt="about decoration" />
-                <p class="section3_p">
+                <p>
                   If you’ve been to one of our restaurants, you’ve seen – and
                   tasted – what keeps our customers coming back for more.
                   Perfect materials and freshly baked food, delicious Lambda
@@ -127,33 +131,121 @@
         </section>
         <section class="main_section main_section__light">
           <div class="section_columns">
-            <div class="section_column">
+            <div class="section_column4">
               <h3 class="section4_header">Appetisers</h3>
               <img src="./img/divider2.png" alt="decoration" />
+
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash b
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash bro
+                </div>
+              </div>
+
               <h3 class="section4_header">Salads</h3>
               <img src="./img/divider2.png" alt="decoration" />
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash brow
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash browns
+                </div>
+              </div>
             </div>
-            <div class="section_column">
+            <div class="section_column4">
               <h3 class="section4_header">Starters</h3>
               <img src="./img/divider2.png" alt="decoration" />
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash browns
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash browns
+                </div>
+              </div>
               <h3 class="section4_header">Main Dishes</h3>
               <img src="./img/divider2.png" alt="decoration" />
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash browns
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash browns
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-name">Tzasiki</div>
+                <div class="menu-item-price">$3.99</div>
+                <div class="menu-item-description">
+                  We start with a generous portion of our golden hash browns
+                </div>
+              </div>
             </div>
           </div>
         </section>
         <section class="main_section main_section__dark bg_5">
-          <div class="section5_wrapper">
-            <div class="section5_bottom">
-              <h2 class="section3_header">Guest Reviews</h2>
+          <div class="section5_wrapper section5">
+            <figure class="section5_bottom">
+              <h2 class="section5_header">Guest Reviews</h2>
               <img src="./img/divider3.png" alt="decoration" />
-              <p class="section3_p">
+
+              <blockquote class="section5_quote">
                 If you’ve been to one of our restaurants, you’ve seen – and
                 tasted – what keeps our customers coming back for more. Perfect
                 materials and freshly baked food, delicious Lambda cakes,
                 muffins, and gourmet coffees make us hard to resist! Stop in
-                today and check us out! - food inc, New York
-              </p>
-            </div>
+                today and check us out!
+              </blockquote>
+              <figcaption>&mdash; food inc, <cite>New York</cite></figcaption>
+            </figure>
           </div>
         </section>
         <section class="main_section main_section__light">
@@ -246,7 +338,7 @@
       </main>
       <footer class="page_footer">
         <div class="footer_column">
-          <div class="footer_header">About us</div>
+          <h3 class="footer_header">About us</h3>
           <img src="./img/divider3.png" alt="about decoration" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
@@ -255,15 +347,21 @@
           </p>
         </div>
         <div class="footer_column">
-          <div class="footer_header">Opening Hours</div>
+          <h3 class="footer_header">Opening Hours</h3>
           <img src="./img/divider3.png" alt="about decoration" />
           <p>
             <span>Mon-Thu: </span>7:00am-8:00pm <br />
             <span>Fri-Sun: </span>7:00am-10:00pm
           </p>
+          <div class="footer-cards">
+            <i class="fa fa-car footer-card fa-2x"></i>
+            <i class="fa fa-car footer-card fa-2x"></i>
+            <i class="fa fa-car footer-card fa-2x"></i>
+            <i class="fa fa-car footer-card fa-2x"></i>
+          </div>
         </div>
         <div class="footer_column">
-          <div class="footer_header">Our Location</div>
+          <h3 class="footer_header">Our Location</h3>
           <img src="./img/divider3.png" alt="about decoration" />
           <p>
             19th Paradise Street Sitia <br />

@@ -18,3 +18,14 @@
   background-color: rgba(14, 13, 13, 0.6);
   color: #fff;
 }
+
+blockquote::after {
+  position: absolute;
+  background-image: url("../img/sect5-quote.png");
+  background-size: contain;
+  width: 37px;
+  height: 30px;
+  left: 295px;
+  top: 3020px;
+  content: "";
+}

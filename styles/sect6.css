@@ -10,11 +10,10 @@
 }
 
 .section6_column {
-  width: 100%;
   margin: 0px 10px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   text-align: center;
 }
 .contact_form {

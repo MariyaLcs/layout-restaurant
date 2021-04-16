@@ -28,10 +28,18 @@
 }
 
 .page_footer span {
-  font-weight: bold;
+  font-size: 1.25rem;
 }
 .page_footer h4 {
   margin: 0;
   line-height: 24px;
   margin-top: 24px;
+}
+.footer-cards {
+  isplay: flex;
+  flex-direction: row;
+}
+.footer-card {
+  font-size: 60px;
+  /* color: red; */
 }

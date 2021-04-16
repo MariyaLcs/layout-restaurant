@@ -1,0 +1,34 @@
+.section_column4 {
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  align-items: center;
+}
+
+.menu-item {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Open Sans";
+}
+
+.menu-item-name {
+  font-family: helvetica;
+  font-weight: bold;
+  width: 500px;
+}
+
+.menu-item-description {
+  font-weight: normal;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.menu-item-price {
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
