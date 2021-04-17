@@ -8,6 +8,7 @@
   display: flex;
   justify-content: flex-end;
   line-height: 40px;
+  flex-wrap: wrap;
 }
 .nav_item {
   padding: 30px;

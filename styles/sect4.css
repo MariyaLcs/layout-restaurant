@@ -7,28 +7,46 @@
   align-items: center;
 }
 
-.menu-item {
+.menu_item {
   margin: 5px 0;
   font-size: 18px;
   color: #000000;
   font-family: "Open Sans";
 }
+.special {
+  border: solid 1px #cc9900;
+  padding: 7px;
+}
 
-.menu-item-name {
+.special::after {
+  position: relative;
+  background-image: url(../img/special.png);
+  background-size: contain;
+  left: 435px;
+  top: -79px;
+  content: "Special";
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.menu_item_name {
   font-family: helvetica;
   font-weight: bold;
   width: 500px;
+  border-bottom: solid 1px #cc9900;
+  color: #cc9900;
 }
 
-.menu-item-description {
+.menu_item_description {
   font-weight: normal;
   font-size: 0.9em;
   line-height: 1.5em;
 }
 
-.menu-item-price {
+.menu_item_price {
   float: right;
   font-weight: bold;
   font-family: arial;
   margin-top: -22px;
+  color: #cc9900;
 }
