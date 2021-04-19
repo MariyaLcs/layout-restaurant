@@ -17,11 +17,11 @@
   border-top: solid 2px rgba(223, 223, 223, 0.938);
 }
 .nav_item a,
-.page_header_logo a {
+.logo a {
   text-decoration: none;
   color: #fff;
 }
-.page_header_logo {
+.logo {
   padding: 30px;
   position: absolute;
   left: 18px;
