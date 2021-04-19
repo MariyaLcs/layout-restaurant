@@ -5,17 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="/styles/sect1.css" />
-    <link rel="stylesheet" href="/styles/sect2.css" />
-    <link rel="stylesheet" href="/styles/sect3.css" />
-    <link rel="stylesheet" href="/styles/sect4.css" />
-    <link rel="stylesheet" href="/styles/sect5.css" />
-    <link rel="stylesheet" href="/styles/sect6.css" />
-    <link rel="stylesheet" href="/styles/footer.css" />
-    <link rel="stylesheet" href="/styles/header.css" />
-    <link rel="stylesheet" href="/styles/font-style.css" />
-    <link rel="stylesheet" href="/icons/icons.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       rel="stylesheet"
@@ -72,40 +62,40 @@
       </header>
       <main class="page_main">
         <section class="main_section bg_sect1">
-          <div class="section1_wrapper">
-            <div class="section1_top">
+          <div class="section_promo_wrapper">
+            <div class="section_promo_top">
               <h1 class="visually-hidden">LAMBDA restaurant</h1>
-              <h2 class="section1_name">
+              <h2 class="section_promo_name">
                 the right ingredients for the right food
               </h2>
             </div>
-            <div class="section1_center">
+            <div class="section_promo_center">
               <img src="./img/divider1.png" alt="header decoration" />
             </div>
-            <div class="section1_bottom">
+            <div class="section_promo_bottom">
               <div>
                 <a
                   href="#booking"
-                  class="section1_button section1_button__primary"
+                  class="section_promo_button section_promo_button__primary"
                   >BOOK A TABLE</a
                 >
               </div>
               <div>
                 <a
                   href="#menu"
-                  class="section1_button section1_button__secondary"
+                  class="section_promo_button section_promo_button__secondary"
                   >SEE THE MENU</a
                 >
               </div>
             </div>
           </div>
         </section>
-        <section class="main_section main_section__light">
+        <section class="main_section main_section_light">
           <div class="section_columns">
             <div class="section_column">
-              <h2 class="section2_header">Just the right food</h2>
+              <h2 class="section_about_header">Just the right food</h2>
               <img src="./img/divider2.png" alt="about decoration" />
-              <p class="section2_p">
+              <p class="section_about_p">
                 If you’ve been to one of our restaurants, you’ve seen – and
                 tasted – what keeps our customers coming back for more. Perfect
                 materials and freshly baked food, delicious Lambda cakes,
@@ -113,25 +103,25 @@
                 today and check us out!
               </p>
 
-              <div class="section2_chef">
+              <div class="section_about_chef">
                 <img src="./img/chef.png" alt="chef" />
               </div>
             </div>
-            <div class="section2_column">
+            <div class="section_about_column">
               <img
                 src="./img/sect2-plate.png"
                 alt="PLate with steak"
-                class="section2_plate"
+                class="section_about_plate"
               />
             </div>
           </div>
         </section>
-        <section class="main_section main_section__dark bg_3">
+        <section class="main_section main_section_dark bg_3">
           <div class="section_columns">
             <div class="section_column"></div>
             <div class="section_column">
-              <div class="section3">
-                <h2 class="section3_header">Fine ingredients</h2>
+              <div class="section_ingredients">
+                <h2 class="section_ingredients_header">Fine ingredients</h2>
                 <img src="./img/divider3.png" alt="about decoration" />
                 <p>
                   If you’ve been to one of our restaurants, you’ve seen – and
@@ -140,19 +130,28 @@
                   cakes, muffins, and gourmet coffees make us hard to resist!
                   Stop in today and check us out!
                 </p>
-                <div class="section3_wrapper">
-                  <img src="./img/ingred1.jpg" class="section3_ingred" />
-                  <img src="./img/ingred2.jpg" class="section3_ingred" />
-                  <img src="./img/ingred3.jpg" class="section3_ingred" />
+                <div class="section_ingredients_wrapper">
+                  <img
+                    src="./img/ingred1.jpg"
+                    class="section_ingredients_ingred"
+                  />
+                  <img
+                    src="./img/ingred2.jpg"
+                    class="section_ingredients_ingred"
+                  />
+                  <img
+                    src="./img/ingred3.jpg"
+                    class="section_ingredients_ingred"
+                  />
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="main_section main_section__light">
+        <section class="main_section main_section_light">
           <div class="section_columns">
-            <div class="section_column4">
-              <h3 class="section4_header">Appetisers</h3>
+            <div class="section_menu_column">
+              <h3 class="section_menu_header">Appetisers</h3>
               <img src="./img/divider2.png" alt="decoration" />
 
               <div class="menu_item">
@@ -177,7 +176,7 @@
                 </div>
               </div>
 
-              <h3 class="section4_header">Salads</h3>
+              <h3 class="section_menu_header">Salads</h3>
               <img src="./img/divider2.png" alt="decoration" />
               <div class="menu_item">
                 <div class="menu_item_name">Olive Special</div>
@@ -201,8 +200,8 @@
                 </div>
               </div>
             </div>
-            <div class="section_column4">
-              <h3 class="section4_header">Starters</h3>
+            <div class="section_menu_column">
+              <h3 class="section_menu_header">Starters</h3>
               <img src="./img/divider2.png" alt="decoration" />
               <div class="menu_item">
                 <div class="menu_item_name">Haloumi</div>
@@ -219,7 +218,7 @@
                 </div>
               </div>
 
-              <h3 class="section4_header">Main Dishes</h3>
+              <h3 class="section_menu_header">Main Dishes</h3>
               <img src="./img/divider2.png" alt="decoration" />
               <div class="menu_item">
                 <div class="menu_item_name">Cornish Mackerel</div>
@@ -252,13 +251,13 @@
             </div>
           </div>
         </section>
-        <section class="main_section main_section__dark bg_5">
-          <div class="section5_wrapper section5">
-            <figure class="section5_bottom">
-              <h2 class="section5_header">Guest Reviews</h2>
+        <section class="main_section main_section_dark bg_5">
+          <div class="section_reviews_wrapper section_reviews">
+            <figure class="section_reviews_bottom">
+              <h2 class="section_reviews_header">Guest Reviews</h2>
               <img src="./img/divider3.png" alt="decoration" />
 
-              <blockquote class="section5_quote">
+              <blockquote class="section_reviews_quote">
                 If you’ve been to one of our restaurants, you’ve seen – and
                 tasted – what keeps our customers coming back for more. Perfect
                 materials and freshly baked food, delicious Lambda cakes,
@@ -269,25 +268,25 @@
             </figure>
           </div>
         </section>
-        <section class="main_section main_section__light">
+        <section class="main_section main_section_light">
           <div class="section_columns">
-            <div class="section6_column">
-              <div class="section6_pictures">
+            <div class="section_reservation_column">
+              <div class="section_reservation_pictures">
                 <img
                   src="./img/sect6-1.png"
                   alt="Plate with a steak"
-                  class="section6_pic"
+                  class="section_reservation_pic"
                 />
                 <img
                   src="./img/sect6-2.png"
                   alt="PLate with a desert"
-                  class="section6_pic"
+                  class="section_reservation_pic"
                 />
               </div>
             </div>
 
-            <div class="section6_column">
-              <h2 class="section2_header">Just the right food</h2>
+            <div class="section_reservation_column">
+              <h2 class="section_about_header">Just the right food</h2>
               <img src="./img/divider2.png" alt="about decoration" />
               <p>
                 If you’ve been to one of our restaurants, you’ve seen – and
@@ -317,7 +316,7 @@
                       <label for="date" class="form_item">Date</label>
                       <input
                         type="date"
-                        name="introduzir_nome"
+                        name="date"
                         id="date"
                         required
                         placeholder="date *"
@@ -339,7 +338,7 @@
                       <label for="number" class="form_item">Party number</label>
                       <input
                         type="tel"
-                        name="introduzir_nome"
+                        name="tel"
                         id="number"
                         required
                         placeholder="party number"
