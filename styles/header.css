@@ -31,11 +31,8 @@
   flex-direction: row;
   padding-top: 30px;
 }
-.social_item {
-  width: 30px;
-  height: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.social_icon {
   margin-left: 10px;
+  color: #dab33e;
+  font-size: 24px;
 }
