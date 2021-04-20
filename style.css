@@ -159,6 +159,7 @@ body {
   font-weight: 500;
   font-family: "Lato", sans-serif;
   margin: 20px;
+  width: 440px;
 }
 
 .section_reviews_quote {
@@ -301,9 +302,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-}
-.section_ingredients_p {
-  width: 400px;
+  padding: 40px;
 }
 
 /* section menu */
