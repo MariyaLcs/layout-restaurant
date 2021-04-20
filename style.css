@@ -2,6 +2,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+}
 
 .page_wrapper {
   width: 100%;
@@ -42,23 +45,22 @@
   color: #fff;
   background-color: rgba(169, 169, 169, 0.212);
 }
-.bg_sect1 {
+.bg_promo {
   background-image: url("../img/header.jpg");
   background-size: cover;
+  background-color: #3e4334;
 }
-.bg_3 {
+.bg_ingredients {
   background-image: url("../img/bg1.png");
   background-size: cover;
+  background-color: #304927;
 }
-.bg_5 {
+.bg_reviews {
   background-image: url("../img/bg2.jpg");
   background-size: cover;
+  background-color: #cfa588;
 }
 
-.bg_sect2 {
-  background-image: url("../img/sect2-main.jpg");
-  background-repeat: round;
-}
 .main_section_light {
   background: radial-gradient(
         circle at right,
@@ -160,20 +162,10 @@
   margin: 20px;
 }
 
-.logo {
-  font-size: 30px;
-  color: rgba(248, 243, 253, 0.932);
-}
-.nav_item {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
 /* header */
 .page_header {
   position: absolute;
   width: 100%;
-
   padding: 0px 80px;
 }
 .nav_wrapper {
@@ -182,7 +174,15 @@
   line-height: 40px;
   flex-wrap: wrap;
 }
+
+.logo {
+  font-size: 30px;
+  color: rgba(248, 243, 253, 0.932);
+}
 .nav_item {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "Gentium Book Basic", serif;
   padding: 30px;
 }
 .nav_item:hover {
