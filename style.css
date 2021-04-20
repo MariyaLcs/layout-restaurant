@@ -18,7 +18,7 @@ body {
 }
 
 .main_section {
-  min-height: 650px;
+  min-height: 750px;
   padding: 70px 80px;
 }
 .main_section:first-child {
@@ -162,6 +162,13 @@ body {
   margin: 20px;
 }
 
+.section_reviews_quote {
+  width: 620px;
+  font-size: 25px;
+  font-family: "Gentium Book Basic", serif;
+  line-height: 40px;
+}
+
 /* header */
 .page_header {
   position: absolute;
@@ -262,7 +269,6 @@ body {
 .section_about_chef {
   display: block;
   width: 120px;
-  height: 120px;
   position: relative;
   border-radius: 50%;
   background-image: url("../img/chef.jpg");
@@ -364,8 +370,8 @@ body {
 }
 
 .section_reviews_bottom {
-  width: 600px;
-  height: 400px;
+  width: 770px;
+  height: 560px;
   margin-top: 60px;
   display: flex;
   flex-direction: column;
@@ -377,14 +383,15 @@ body {
   color: #fff;
 }
 
-blockquote::after {
-  position: absolute;
+figure::after {
+  position: relative;
   background-image: url("../img/sect5-quote.png");
   background-size: contain;
   width: 37px;
   height: 30px;
-  left: 295px;
-  top: 3020px;
+
+  right: 331px;
+  top: -253px;
   content: "";
 }
 
