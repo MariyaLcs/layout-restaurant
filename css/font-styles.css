@@ -1,0 +1,41 @@
+/* font styles */
+.section_about_header,
+.section_menu_header {
+  color: #cc9900;
+  font-size: 24px;
+  margin: 15px 0px;
+  font-family: "Yeseva One", cursive;
+  letter-spacing: 2px;
+}
+.section_ingredients_header,
+.section_reviews_header {
+  color: #fff;
+  font-size: 24px;
+  margin: 15px 0px;
+  font-family: "Yeseva One", cursive;
+  letter-spacing: 2px;
+}
+.section_column p {
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  line-height: 26px;
+}
+
+.section_ingredients p,
+.section_reviews p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+  margin: 20px;
+  width: 440px;
+}
+
+.section_reviews_quote {
+  width: 620px;
+  font-size: 25px;
+  font-family: "Gentium Book Basic", serif;
+  line-height: 40px;
+}
