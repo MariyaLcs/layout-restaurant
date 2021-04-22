@@ -288,11 +288,11 @@ body {
   position: relative;
   background-image: url(../img/special.png);
   background-size: contain;
-  left: 435px;
-  top: -79px;
+  left: 429px;
+  top: -78px;
   content: "Special";
   color: #fff;
-  padding: 5px 10px;
+  padding: 1px 10px;
 }
 
 .menu_item_name {
@@ -430,12 +430,11 @@ button {
   justify-content: space-between;
   text-align: center;
   align-items: flex-start;
-  min-height: 50vh;
   background-color: #191919;
   color: #f2f2f2;
-  padding-top: 50px;
+  padding: 80px;
   position: absolute;
-  bottom: -255px;
+  bottom: -400px;
 }
 .footer_column {
   display: flex;
